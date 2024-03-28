@@ -69,7 +69,7 @@ we will use the ES and Kibana scripts to install the packages
    sudo chmod 755 kibana-install.sh
    sudo ./kibana-install.sh
    ```
-10. Open kibana in the browser and configuer security between elasticsearch and kibana 
+10. Open kibana in the browser and configuer security between elasticsearch and kibana by copy the output
 
    ```sh
    http://localhost:5601
