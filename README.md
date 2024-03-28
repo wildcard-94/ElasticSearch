@@ -85,6 +85,17 @@ we will use the ES and Kibana scripts to install the packages
 
 
 <!-- ACKNOWLEDGMENTS -->
+
+## Elastic binary tools used in the script
+   <p>
+    <img width="360" height="200" src=https://i.imgur.com/yJmLp3U.png" >
+    <p>
+    <img width="360" height="200" src="https://i.imgur.com/aVABWi7.png" >
+    <p>
+    <img width="360" height="200" src="https://i.imgur.com/nvMAsoi.png" >
+    </p>
+
+
 ## References
 
 * [Installing Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/8.2/install-elasticsearch.html)
