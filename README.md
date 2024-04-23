@@ -34,9 +34,10 @@ we will use the ES and Kibana scripts to install the packages
    ```sh
    sudo yum install git
    ```
-3. Clone the Elasticsearch repo `es-install.sh`
+3. Clone the repository 
    ```sh
-   git clone https://github.com/wildcard-94/ElasticSearch/es-install.sh
+   git clone https://github.com/wildcard-94/ElasticSearch.git
+   cd ElasticSearch
    
    ```
 4. Run the script
@@ -59,17 +60,12 @@ we will use the ES and Kibana scripts to install the packages
     <p>
     <img width="360" height="200" src="https://i.imgur.com/YrJMdbc.png" >
     </p>
-8. Clone Kibana repo `kibana-install.sh`
-   ```sh
-   git clone https://github.com/wildcard-94/ElasticSearch/kibana-install.sh
-   
-   ```
-9. Run the script
+8. Run kibana script
    ```sh
    sudo chmod 755 kibana-install.sh
    sudo ./kibana-install.sh
    ```
-10. Open kibana in the browser and configuer security between elasticsearch and kibana by copy the output
+9. Open kibana in the browser and configuer security between elasticsearch and kibana by copy the output
 
    ```sh
    http://localhost:5601
