@@ -51,7 +51,7 @@ we will use the ES and Kibana scripts to install the packages
    ```
 6. Copy the password and set ELASTIC-PASSWORD variable
    ```sh
-   export ELASTIC-PASSWORD="your own password"
+   export ELASTIC_PASSWORD="your own password"
    ```
 7. Check reachability   
    ```js
