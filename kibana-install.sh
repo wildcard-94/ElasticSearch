@@ -14,9 +14,8 @@ sudo /bin/systemctl daemon-reload
 sudo /bin/systemctl enable kibana.service
 sudo systemctl start kibana.service
 sleep 1m
-sudo systemctl status kibana.service
 cd /usr/share/elasticsearch
-./bin/elasticsearch-create-enrollment-token -s kibana
+sudo ./bin/elasticsearch-create-enrollment-token -s kibana
 
 cd /usr/share/kibana/
-./bin/kibana-verification-code 
+sudo ./bin/kibana-verification-code 
