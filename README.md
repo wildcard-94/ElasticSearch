@@ -47,9 +47,9 @@ we will use the ES and Kibana scripts to install the packages
    ```
 5. Reset elastic user password 
    ```sh
-   cd /usr/share/elasticsearch/ ; sudo ./bin/elasticsearch-reset-password -u elastic
+   cd /usr/share/elasticsearch/ ; sudo ./bin/elasticsearch-reset-password -u elastic --url https:/localhost:9200
    ```
-6. Copy the password and set ELASTIC-PASSWORD variable
+6. Copy the password and set ELASTI_PASSWORD variable
    ```sh
    export ELASTIC_PASSWORD="your own password"
    ```
